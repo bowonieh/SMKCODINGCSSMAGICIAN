@@ -1,0 +1,90 @@
+.container .header {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  min-height: 230px;
+}
+
+.container .header .judul {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("assets/Images/bg-testimonial.png");
+  background-size: 30%;
+}
+
+.container .header .judul::before {
+  content: "";
+  background-color: bisque;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.65;
+}
+
+.container .tagline {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .tagline .img-product {
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 240px;
+  height: 60px;
+  z-index: 99999;
+}
+
+.container .tagline .img-product img {
+  width: 240px;
+  background-color: white;
+  padding: 10px;
+}
+
+.container .tagline .hero {
+  color: #1a0f02 !important;
+  font-size: 40px;
+  position: absolute;
+  padding-top: 170px;
+  padding-left: 800px;
+  font-weight: 900;
+  width: 420px;
+  z-index: 99999;
+  line-height: 0.5;
+}
+
+.container .tagline .hero .information-text {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 0.1 !important;
+}
+
+.container .tagline .hero h4 {
+  margin-top: 0px;
+  font-size: 32px;
+  line-height: 0.9;
+}
+
+.container .tagline .hero u {
+  text-decoration: underline;
+  -webkit-text-decoration-color: chocolate;
+          text-decoration-color: chocolate;
+}
+/*# sourceMappingURL=tugas2.css.map */
