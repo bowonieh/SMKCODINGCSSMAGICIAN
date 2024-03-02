@@ -7,7 +7,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  min-height: 230px;
+  min-height: 100px;
 }
 
 .container .header .judul {
@@ -83,6 +83,120 @@
 }
 
 .container .tagline .hero u {
+  text-decoration: underline;
+  -webkit-text-decoration-color: chocolate;
+          text-decoration-color: chocolate;
+}
+
+.container .tombol-offer {
+  background-color: #1a0f02;
+  margin-top: 0px !important;
+  color: #ffcc00;
+  font-weight: 500;
+  border-radius: 12px;
+  min-height: 35px;
+  min-width: 80px;
+}
+
+.container .content {
+  margin: 0px 120px 0px 120px;
+  min-height: 760px;
+}
+
+.container .content .product-lists {
+  margin: 0px 40px 0px 40px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .content .product-lists .product {
+  background-color: aliceblue;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 calc(25% - 1em);
+          flex: 0 1 calc(25% - 1em);
+  padding: 10px;
+  margin: 10px;
+  min-height: 240px;
+  min-width: 350px;
+}
+
+.container .content .product-lists .product .text-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .content .product-lists .product .text-product h5 {
+  line-height: 0.1;
+  margin-top: 20px;
+  font-size: 28px;
+  padding-right: 20px;
+}
+
+.container .content .product-lists .product .text-product .product-left {
+  width: 70%;
+}
+
+.container .content .product-lists .product .text-product .product-right {
+  width: 30%;
+}
+
+.container .content .product-lists .product .text-product .product-info {
+  line-height: 0.1;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #4e3308;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .content .product-lists .product .text-product .cart {
+  background-color: #f6753e;
+  padding: 10px;
+  width: 40px;
+  border-radius: 120px;
+}
+
+.container .content .product-lists .product .text-product .cart img {
+  width: 28px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .content .product-lists .product .rating {
+  position: absolute;
+  margin-left: 20px;
+  background-color: aliceblue;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.container .content .product-lists .product .rating img {
+  width: 12px;
+}
+
+.container .content .product-lists .product img {
+  width: 100%;
+}
+
+.container .content h4 {
+  margin-left: 50px;
+  font-size: 32px;
+}
+
+.container .content u {
   text-decoration: underline;
   -webkit-text-decoration-color: chocolate;
           text-decoration-color: chocolate;
